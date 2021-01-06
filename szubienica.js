@@ -5,7 +5,7 @@ sayings[2] = "Co dwie głowy, to nie jedna";
 sayings[3] = "Fortuna kołem się toczy";
 sayings[4] = "Nie chwal dnia przed zachodem słońca";
 sayings[5] = "Dzieci i ryby głosu nie mają";
-sayingToGuess = sayings[Math.floor(Math.random() * sayings.length + 1)];
+sayingToGuess = sayings[Math.floor(Math.random() * sayings.length)];
 sayingToGuess = sayingToGuess.toUpperCase();
 
 const yes = new Audio("yes.wav");
